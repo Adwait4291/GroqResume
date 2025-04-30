@@ -29,9 +29,9 @@ GroqResume is an interactive web application built with Streamlit that leverages
 ## Technology Stack
 
 * **Language:** Python 3.x
-* **Web Framework:** Streamlit - For building the interactive user interface. (Streamlit allows turning data scripts into shareable web apps) (Search result [2.1], [2.3])
-* **AI Model:** Llama 3 (specifically `llama3-70b-8192` by default via Groq API) - A large language model developed by Meta. (Search result [3.1])
-* **AI Inference:** Groq LPU™ Inference Engine - Provides high-speed LLM inference through its custom hardware (Language Processing Units). (Search result [3.1], [3.3])
+* **Web Framework:** Streamlit - For building the interactive user interface.
+* **AI Model:** Llama 3 (specifically `llama3-70b-8192` by default via Groq API) - A large language model developed by Meta.
+* **AI Inference:** Groq LPU™ Inference Engine - Provides high-speed LLM inference through its custom hardware (Language Processing Units). 
 * **PDF Processing:** PyPDF2 - A Python library for extracting text content from PDF files.
 * **API Client:** `groq` Python library - For interacting with the GroqCloud API.
 * **Configuration:** `python-dotenv` - For managing environment variables (like API keys) during local development.
